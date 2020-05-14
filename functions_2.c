@@ -4,7 +4,7 @@
  * @top: top of the stack
  * @line: line number
  */
-void add(stack_t ** top, unsigned int line)
+void add(stack_t **top, unsigned int line)
 {
 	int sum;
 

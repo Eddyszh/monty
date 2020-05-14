@@ -62,7 +62,7 @@ void pall(stack_t **top, unsigned int line);
 void pint(stack_t **top, unsigned int line);
 void pop(stack_t **top, unsigned int line);
 void swap(stack_t **top, unsigned int line);
-void add(stack_t ** top, unsigned int line);
+void add(stack_t **top, unsigned int line);
 void nop(stack_t **top, unsigned int line);
 
 #endif
