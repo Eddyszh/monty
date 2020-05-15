@@ -8,14 +8,14 @@ void pchar(stack_t **top, unsigned int line)
 {
 	if (!top || !*top)
 	{
-		fprintf(stderr, "L%d: can't pchar, stack empty", line);
+		fprintf(stderr, "L%d: can't pchar, stack empty\n", line);
 		exit(EXIT_FAILURE);
 	}
 	if (isascii(var.holder))
 		printf("%c\n", var.holder);
 	else
 	{
-		fprintf(stderr, "L%d: can't pchar, value out of range", line);
+		fprintf(stderr, "L%d: can't pchar, value out of range\n", line);
 		exit(EXIT_FAILURE);
 	}
 }
