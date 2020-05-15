@@ -68,5 +68,9 @@ void sub(stack_t **top, unsigned int line);
 void _div(stack_t **top, unsigned int line);
 void mul(stack_t **top, unsigned int line);
 void mod(stack_t **top, unsigned int line);
+void pchar(stack_t **top, unsigned int line);
+void pstr(stack_t **top, unsigned int line);
+void rotl(stack_t **top, unsigned int line);
+void rotr(stack_t **top, unsigned int line);
 
 #endif

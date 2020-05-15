@@ -21,6 +21,10 @@ sub | subtracts the top element of the stack from the second top element of the 
 div | divides the second top element of the stack by the top element of the stack
 mul | multiplies the second top element of the stack with the top element of the stack
 mod | computes the rest of the division of the second top element of the stack by the top element of the stack
+pchar | prints the char at the top of the stack, followed by a new line
+pstr | prints the string starting at the top of the stack, followed by a new line
+rotl | rotates the stack to the top
+rotr | rotates the stack to the bottom
 ## Monty files examples
 ```
 vagrant@ubuntu:~/monty$ cat -e bytecodes/000.m

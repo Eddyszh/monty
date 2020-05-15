@@ -21,6 +21,10 @@ void opcodes(char *str, stack_t **stack, unsigned int line)
 		{"div", _div},
 		{"mul", mul},
 		{"mod", mod},
+		{"pchar", pchar},
+		{"pstr", pstr},
+		{"rotl", rotl},
+		{"rotr", rotr},
 		{NULL, NULL}
 	};
 	while (opc[i].opcode != NULL)
