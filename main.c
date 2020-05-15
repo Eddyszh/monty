@@ -52,7 +52,7 @@ void _strtok(char *str, stack_t **stack, unsigned int line)
 	char *token, *tokens;
 
 	token = strtok(str, " ");
-	if (!token || *token == ' ' || *token == '\n')
+	if (!token || *token == ' ' || *token == '\n' || *token == '#')
 		return;
 	if (strcmp(token, "push") == 0)
 	{

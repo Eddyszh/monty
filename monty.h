@@ -64,5 +64,9 @@ void pop(stack_t **top, unsigned int line);
 void swap(stack_t **top, unsigned int line);
 void add(stack_t **top, unsigned int line);
 void nop(stack_t **top, unsigned int line);
+void sub(stack_t **top, unsigned int line);
+void _div(stack_t **top, unsigned int line);
+void mul(stack_t **top, unsigned int line);
+void mod(stack_t **top, unsigned int line);
 
 #endif
